@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, head {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+     }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------------------------------------------------------
+CUSTOM STYLE
+-------------------------------------------------------------*/
+body {
+    font-family: 'Marvel', sans-serif;
+    line-height: 1.5;
+    color: white;
+    background-image: url(https://img5.goodfon.com/wallpaper/nbig/6/2f/mstiteli-voina-beskonechnosti-avengers-infinity-war-komiks-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 50px;
+    padding: 2% 2% 1% 2%;
+}
+.logo {
+    max-width: 100%;
+    float: left;
+}
+nav {
+    text-align: right;
+}
+nav li {
+    display: inline-block;
+    margin-left: 2%;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.name {
+    font-size: 20px;
+    float: left;
+    padding-right: 2px;
+}
+.navimg1 {
+    width: 40px;
+    height: 40px;
+
+}
+.navimg {
+    width: 40px;
+    height: 40px;
+}
+
+/* SECTION 1 */
+.p {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.dashboard {
+    text-align: initial;
+    float: left;
+    display: flexbox;
+    flex-direction: column;
+    width: 80%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 3%;
+    justify-content: space-around;
+    padding: 2%;
+    border-radius: 5%;
+}
+.item1 a {
+ color: white;   
+ text-decoration: none;
+ font-size: 30px;
+ margin-top: 10%;
+}
+.bar {
+    margin-top: 10%;
+}
+.item6 {
+    margin-top: 100%;
+}
+p.clear {
+    clear: both;
+  }
+/* SECTION 2 */
+
+.article {
+    margin: 3% 5% 0 1% ;
+}
+.img {
+    width: 800px;
+    border-radius: 5%;
+    max-width: 100%;
+}
+.content {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10%;
+}
+h1 {
+    margin: 2%;
+    font-weight: bold;
+    font-size: 30px;
+}
+p {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: initial;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+button {
+    color: white;
+    background-color: #141414;
+    height: 50px;
+    width: 100px;
+    border-radius: 10%;
+    margin: 2%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 2%;
+    height: 60px;
+    padding: 2%;
+}
+h3 {
+    font-weight: 200;
+    font-size: 25px;
+    float: left;
+    margin: 1%;
+}
+.fnav a {
+    margin-right: 1%;
+    text-decoration: none;
+}

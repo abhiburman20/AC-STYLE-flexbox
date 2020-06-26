@@ -1,0 +1,297 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, head {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+     }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------------------------------------------------------
+CUSTOM STYLE
+-------------------------------------------------------------*/
+body {
+    font-family: 'Amiko', sans-serif;
+    line-height: 1.5;
+    color: black;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: #6b4278;
+    padding: 2%;
+    display: flexbox;
+    justify-content: center;
+}
+h1 {
+    float: left;
+    font-size: 30px;
+    color: wheat;
+    margin-left: 2%;
+}
+nav {
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+nav li {
+    display: inline-block;
+    margin-right: 1%;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/* CONTAINERS */
+
+.a1 {
+    background-color: #6b4278;
+    height: 350px;
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 10%;
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10%;    
+}
+.vl {
+    border-left: 1px solid lightgray;
+    opacity: 20%;
+    height: 180px;
+    margin-top: 5%; 
+}
+h4 {
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: initial;
+    margin: 10%; 
+}
+.bh {
+    background-color: #5ebd8b;
+    padding: 3%;
+    border-radius: 9999em;
+}
+.bh a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* CONTAINER 2 */
+
+.a2 {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 10%;
+}
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: initial;
+    margin: 0 0 5% 10%;
+}
+p {
+    text-align: initial;
+    margin: 0 5% 5% 10%;
+    font-weight: lighter;
+}
+.bl {
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    padding: 2%;
+    border-radius: 9999em;
+    float: left;
+    margin-left: 10%;
+}
+.bl a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hr2 {
+    border-left: 2px solid gray;
+    opacity: 50%;
+    height: 200px;
+    margin-top: 1%; 
+}
+.a2s2 {
+    width: 73%;
+    text-align: initial;
+    padding-left: 5%;
+}
+ul li {
+    margin-top: 5%;
+}
+
+
+/* CONTAINER 3 */
+.a3 {
+    padding: 4% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    border: 1px solid gray;
+    opacity: 50%;
+}
+.a3s1 {
+    display: inline-block;
+    border-bottom: 1px solid gray;
+}
+img {
+    float: left;
+    margin: 2% 2% 0 0%;
+}
+.a3h3 {
+    margin: 10% 0 2% 1%;
+    font-size: 30px;
+}
+.bdetail {
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    padding: 1%;
+    width: 10%;
+    border-radius: 9999em;
+    float: left;
+}
+.bdetail a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*  CONTAINER TEXT BOX */
+.contact {
+    height: 650px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 10%;
+}
+.btext {
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    padding: 1%;
+    width: 20%;
+    margin-top: 5%;
+    border-radius: 9999em;
+}
+.btext a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}
+.name {
+    border: 1px solid lightgrey;
+    padding: 2% 29% 2% 2%;
+    margin: 2% 2% 2% 0;
+    display: inline-block;
+}
+.message {
+    border: 1px solid lightgrey;
+    padding: 2% 66% 20% 2%;
+    margin: 2% 2% 2% 0;
+    display: inline-block;
+}
+.bm {
+    border: 1.5px solid lightgrey;
+    background-color: white;
+    padding: 2%;
+    width: 30%;
+    border-radius: 9999em;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.bm a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+}  
+.vl2 {
+    border-left: 1px solid lightgray;
+    opacity: 20%;
+    height: 500px;
+    margin-top: 5%; 
+}
+.uladd {
+    margin-top: 20%;
+}
+.uladd li {
+    display: inline-block;
+}
+.uladd li a {
+    text-decoration: none;
+    color: black;
+    
+}
+.sm {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+/* FOOTER */
+
+footer {
+    height: 100px;
+}
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgray;
+    opacity: 80%;
+    margin-top: 5%;
+}
